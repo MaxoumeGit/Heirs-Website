@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Roboto";
+    background: #113560;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  
+  .title-wrapper {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    
+    h1 {
+      font-size: 14em;
+      color: white;
+      margin: 0;
+    }
+  }
+  
+  /** Logo **/
+  
+  .logo-container {
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    transform: translate(-50%, 0%);
+  }
+  .logo {
+    width: 10vw;
+    height: 5vw;
+    will-change: transform;
+    transition: transform 100ms ease;
+  }

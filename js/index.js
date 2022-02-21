@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "/css/main.css";
 
 const logo = document.getElementById("logo");
 
