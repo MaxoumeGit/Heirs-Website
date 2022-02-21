@@ -1,4 +1,4 @@
-import "../main.css";
+import "/css/main.css";
 
 const logo = document.getElementById("logo");
 
