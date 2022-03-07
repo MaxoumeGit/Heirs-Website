@@ -31,7 +31,7 @@
     color: var(--primary-color-font);
   }
   .bg-secondary a{
-    color: var(--primary-color);
+    color: var(--secondary-color-font);
   }
 
   /* Grid/flex*/
